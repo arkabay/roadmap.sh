@@ -1,5 +1,7 @@
 # Number Checker
 
+> Project URL: [Javascript Number Checker](https://roadmap.sh/projects/js-number-checker)
+
 Given a number, return a small report describing what kind of number it is. Use simple boolean helper functions, then combine their results in describeNumber.
 
 Write these functions:
@@ -28,4 +30,4 @@ Expected output:
 { positive: true, negative: false, zero: false, even: false, odd: true }
 ```
 
-Each _checker function_ should return _a boolean_. The _summary function_ should return _a new object_.
+Each `checker function` should return _a boolean_. The `summary function` should return _a new object_.

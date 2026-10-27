@@ -1,4 +1,7 @@
 # String Formatter
+
+> Project URL: [Javascript String Formatter](https://roadmap.sh/projects/js-string-formatter)
+
 A signup form is receiving names with inconsistent spacing and casing. Normalize the names before showing them back to the user.
 
 Write these functions:

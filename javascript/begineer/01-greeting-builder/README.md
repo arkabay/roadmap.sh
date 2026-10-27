@@ -1,5 +1,7 @@
 # Greeting Builder
 
+> Project URL: [Javascript Greeting Builder](https://roadmap.sh/projects/js-greeting-builder)
+
 Build a small greeting helper. The main function, createGreeting, should take a person's first name, last name, and time of day, then return one greeting string.
 
 Write these functions:
@@ -24,4 +26,4 @@ Good evening, Noah Kim
 Good afternoon, Mina Patel
 ```
 
-*Your functions* should return _strings_. Use `console.log` only to test your answer.
+`Your functions` should return _strings_. Use `console.log` only to test your answer.

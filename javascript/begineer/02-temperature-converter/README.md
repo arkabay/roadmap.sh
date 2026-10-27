@@ -1,5 +1,7 @@
 # Temperature Converter
 
+> Project URL: [Javascript Temperature Converter](https://roadmap.sh/projects/js-temperature-converter)
+
 A temperature widget needs two conversion helpers and one formatting helper. Keep the math separate from the display text so each function has one clear job.
 
 Write these functions:
@@ -33,4 +35,4 @@ Expected output:
 0 C
 ```
 
-The *conversion functions* should return _numbers_. `formatTemperature` should return _the final string_.
+The `conversion functions` should return _numbers_. `formatTemperature` should return _the final string_.

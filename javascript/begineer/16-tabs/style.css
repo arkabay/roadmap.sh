@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+}
+
+#card {
+  max-width: 42rem;
+  padding: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  background-color: #fafafa;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.card-header .tab {
+  color: #757575;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 0.25rem;
+  border-bottom: 2px solid transparent;
+  transition: color 250ms ease;
+}
+
+.card-header .tab:hover {
+  color: #252525;
+}
+
+.card-header .tab.active {
+  color: #000;
+  border-color: #000;
+}
+
+.card-body {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-body__tab-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: full;
+  min-height: 8em;
+  border-radius: 0.825rem;
+  background-color: #000;
+}
+
+.card-body__tab-contents .tab-content {
+  display: none;
+  padding: 2rem 1.5rem;
+}
+
+.card-body__tab-contents .tab-content.active {
+  display: block;
+}
+
+.card-body__tab-contents .tab-content p {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Tabs</title>
+  </head>
+  <body>
+    <div id="card">
+      <div class="card-header">
+        <button class="tab active" data-target="tab-1">Overview</button>
+        <button class="tab" data-target="tab-2">Features</button>
+        <button class="tab" data-target="tab-3">Pricing</button>
+        <button class="tab" data-target="tab-4">FAQ</button>
+      </div>
+      <div class="card-body">
+        <p class="card-body__paragraph-1">
+          Explore our product details, core capabilities, subscription tiers,
+          and frequently asked questions below.
+        </p>
+        <div class="card-body__tab-contents">
+          <div id="tab-1" class="tab-content active">
+            <p>Welcome to our modern developer platform built for speed and reliability.</p>
+          </div>
+          <div id="tab-2" class="tab-content">
+            <p>Packed with zero-config setup, real-time collaboration, and automatic deployments.</p>
+          </div>
+          <div id="tab-3" class="tab-content">
+            <p>Start free for hobby projects or scale with Pro at $12/month per seat.</p>
+          </div>
+          <div id="tab-4" class="tab-content">
+            <p>Have questions? Check our comprehensive documentation or reach 24/7 support.</p>
+          </div>
+        </div>
+        <p class="card-content__paragraph-2">
+          Switch tabs above to inspect individual section highlights.
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

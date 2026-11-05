@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restricted Text Area</title>
+  </head>
+  <body>
+    <main>
+      <form id="messageForm">
+        <label for="message" class="message-label">Write your message</label>
+        <div class="message-wrapper">
+          <textarea
+            name="message"
+            id="message"
+            class="message-field"
+            placeholder="Type something..."
+            maxlength="250"
+            required
+          ></textarea>
+          <div class="char-counter">
+            <span class="current-length">0</span>
+            <span>/</span>
+            <span class="max-length">-</span>
+          </div>
+        </div>
+        <button class="submit-button" type="submit" disabled>
+          Send Message
+        </button>
+      </form>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

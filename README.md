@@ -26,9 +26,6 @@ roadmap.sh/
 │
 ├── web-development/
 │   ├── frontend/
-│   │    ├── native/
-│   │    ├── reactjs/
-│   │    └── nextjs/
 │   └── backend/
 │
 └──infrastructure/

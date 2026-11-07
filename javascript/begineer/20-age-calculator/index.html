@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"
+    />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <main class="page-container">
+      <div class="card">
+        <header class="card__header">
+          <h1 class="card__title">Age Calculator</h1>
+        </header>
+
+        <section class="card__body">
+          <form id="ageCalculatorForm" class="age-form">
+            <label for="birthDateInput" class="age-form__label">
+              Enter your birth date:
+            </label>
+
+            <div class="age-form__field">
+              <input
+                type="text"
+                name="birthDate"
+                id="birthDateInput"
+                class="age-form__input"
+                placeholder="Select birth date"
+                autocomplete="off"
+                readonly
+                required
+              />
+              <span class="age-form__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xml:space="preserve"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M145.2 0c9.9 0 17.9 8 17.9 17.9v33.5h192.4V18.1c0-9.9 8-17.9 17.9-17.9s17.9 8 17.9 17.9v33.3h69.4c28.3 0 51.2 22.9 51.2 51.2v358.2c0 28.3-22.9 51.2-51.2 51.2H51.2C22.9 512 0 489.1 0 460.8V102.6c0-28.3 22.9-51.2 51.2-51.2h76.1V17.9c0-9.9 8-17.9 17.9-17.9M35.8 198.2v262.6c0 8.5 6.9 15.3 15.4 15.3h409.6c8.5 0 15.4-6.9 15.4-15.3V198.6zm134.9 176v42.7H128v-42.7zm106.6 0v42.7h-42.7v-42.7zm106.7 0v42.7h-42.7v-42.7zM170.7 272.4v42.7H128v-42.7zm106.6 0v42.7h-42.7v-42.7zm106.7 0v42.7h-42.7v-42.7zM127.3 87.3H51.2c-8.5 0-15.4 6.9-15.4 15.3v59.8l440.3.4v-60.1c0-8.5-6.9-15.3-15.4-15.3h-69.4V111c0 9.9-8 17.9-17.9 17.9s-17.9-8-17.9-17.9V87.3H163.1v23.6c0 9.9-8 17.9-17.9 17.9s-17.9-8-17.9-17.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <button class="age-form__button" type="submit" disabled>
+              Calculate
+            </button>
+          </form>
+        </section>
+
+        <footer class="card__footer">
+          <p class="card__result">
+            You are <span class="card__age-text">-</span> old
+          </p>
+        </footer>
+      </div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

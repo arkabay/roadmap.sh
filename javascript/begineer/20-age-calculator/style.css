@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+  background-color: #f2f2f2;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #dedede;
+  color: #555555;
+  cursor: not-allowed;
+}
+
+input:focus-visible {
+  outline-color: #007bff;
+}
+
+[class$="__icon"] {
+  display: flex;
+  place-content: center;
+  width: 1rem;
+  fill: #000;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 25rem;
+  gap: 1rem;
+  padding: 2rem;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.02);
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.age-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.age-form__field {
+  position: relative;
+}
+
+.age-form__label {
+  font-size: 0.875rem;
+}
+
+.age-form__input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.5rem 1.5rem 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.qs-datepicker-container {
+  font-family: inherit !important;
+  width: 100% !important;
+  max-width: 100%;
+  left: 0 !important;
+}
+
+.qs-square {
+  height: 2.25rem !important;
+}
+
+.qs-square:not(.qs-empty):not(.qs-disabled):not(.qs-day):not(.qs-active):hover {
+  background-color: #e6f2ff !important;
+  color: #007bff !important;
+  border-radius: 0.25rem;
+}
+
+.qs-active {
+  background-color: #007bff !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 0.25rem;
+}
+
+.qs-current {
+  border-radius: 0.25rem;
+  color: #007bff;
+}
+
+.age-form__icon {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.age-form__input:focus ~ .age-form__icon svg {
+  fill: #007bff;
+}
+
+.age-form__button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 150ms ease-in;
+}
+
+.age-form__button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+.card__footer {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__footer.active {
+  display: flex;
+}
+
+.card__result {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card__age-text {
+  font-weight: 600;
+}

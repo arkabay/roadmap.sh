@@ -1,0 +1,20 @@
+{
+  "name": "20-age-calculator",
+  "version": "1.0.0",
+  "description": "> Project URL: [Javascript Age Calculator](https://roadmap.sh/projects/age-calculator)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}

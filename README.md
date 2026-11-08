@@ -8,11 +8,11 @@ This repository documents my learning journey across different areas of software
 
 The repository is organized into several engineering domains, each containing its respective learning roadmaps.
 
-| Domain                                                     | Roadmaps                     | Status      |
-| ---------------------------------------------------------- | ---------------------------- | ----------- |
-| [Programming Languages](./programming-languages/README.md) | JavaScript, TypeScript       | In Progress |
-| [Web Development](./web-development/README.md)             | Frontend, Backend, Fullstack | In Progress |
-| [Infrastructure](./infrastructure/README.md)               | Linux, DevOps, Docker        | Planned     |
+| Domain                | Roadmaps                                                                                                                            | Status      |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Programming Languages | [JavaScript](./programming-languages/javascript/README.md), [TypeScript](./programming-languages/typescript/README.md)              | In Progress |
+| Web Development       | [Frontend](./web-development/frontend/README.md), [Backend](./web-development/backend/README.md)                                    | In Progress |
+| Infrastructure        | [Linux](./infrastructure/linux/README.md), [DevOps](./infrastructure/devops/README.md), [Docker](./infrastructure/docker/README.md) | Planned     |
 
 ## Repository Structure
 

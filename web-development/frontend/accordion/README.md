@@ -1,4 +1,4 @@
-# Accordin
+# Accordion
 
 > Project URL: [Javascript Accordion](https://roadmap.sh/projects/accordion)
 

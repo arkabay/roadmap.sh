@@ -1,11 +1,11 @@
 # Tabs
 
-> Project URL: [Javascript Tabs](https://roadmap.sh/projects/simple-tabs)
+> Project URL: https://roadmap.sh/projects/simple-tabs
 
 This project is designed to introduce you to basic DOM manipulation and event handling in JavaScript.
 
 You are required to create a simple tab functionality using HTML, CSS, and basic JavaScript. The page will have four tabs, with the first tab being active by default. When the user clicks on another tab, the content of the current tab will be hidden, and the content of the selected tab will be displayed.
 
-![Tabs UI Reference](https://assets.roadmap.sh/guest/simple-tabs-8e6gy.png)
+![UI Reference](https://assets.roadmap.sh/guest/simple-tabs-8e6gy.png)
 
 This project will help you practice selecting elements with JavaScript, listening for click events, and manipulating the DOM to show or hide relevant tab content.

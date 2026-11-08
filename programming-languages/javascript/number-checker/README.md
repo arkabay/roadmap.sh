@@ -1,10 +1,10 @@
 # Number Checker
 
-> Project URL: [Javascript Number Checker](https://roadmap.sh/projects/js-number-checker)
+> Project URL: https://roadmap.sh/projects/js-number-checker
 
 Given a number, return a small report describing what kind of number it is. Use simple boolean helper functions, then combine their results in describeNumber.
 
-Write these functions:
+## Write these functions:
 
 - `isPositive(number)` should return true when the number is greater than 0.
 - `isNegative(number)` should return true when the number is less than 0.
@@ -12,7 +12,7 @@ Write these functions:
 - `isEven(number)` should return true when the number is even.
 - `describeNumber(number)` should return an object with positive, negative, zero, even, and odd properties.
 
-Sample checks:
+## Sample checks:
 
 ```js
 console.log(describeNumber(8));
@@ -21,7 +21,7 @@ console.log(describeNumber(0));
 console.log(describeNumber(7));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 { positive: true, negative: false, zero: false, even: true, odd: false }

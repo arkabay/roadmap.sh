@@ -1,10 +1,10 @@
 # Order Status Helper
 
-> Project URL: [Javascript Order Status Helper](https://roadmap.sh/projects/js-order-status-helper)
+> Project URL: https://roadmap.sh/projects/js-order-status-helper
 
 Summarize an order object for a support dashboard. The final summary should expose payment status, shipping status, item count, and whether the order needs attention.
 
-Write these functions:
+## Write these functions:
 
 - `isPaid(order)` should return true when payment.status is "paid".
 - `hasShipped(order)` should return true when shipping.status is "shipped".
@@ -12,7 +12,7 @@ Write these functions:
 - `needsAttention(order)` should return true when the order is unpaid or has not shipped.
 - `createOrderSummary(order)` should return id, customerName, paid, shipped, itemCount, deliveryMessage, and needsAttention.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const order = {
@@ -47,7 +47,7 @@ console.log(needsAttention(pendingOrder));
 console.log(getDeliveryMessage(pendingOrder));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 { id: "ORD-1001", customerName: "Ava Stone", paid: true, shipped: true, itemCount: 3, deliveryMessage: "Order shipped. Estimated delivery: 2026-06-18.", needsAttention: false }
@@ -56,3 +56,5 @@ true
 true
 Order has not shipped yet.
 ```
+
+For `itemCount`, add item quantities instead of counting item rows.

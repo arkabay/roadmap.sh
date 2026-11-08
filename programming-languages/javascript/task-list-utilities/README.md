@@ -1,17 +1,17 @@
 # Task List Utilities
 
-> Project URL: [Javascript Task List Utilities](https://roadmap.sh/projects/js-task-list-utilities)
+> Project URL: https://roadmap.sh/projects/js-task-list-utilities
 
 You are writing helper functions for a task list. Each helper should return a result without mutating the original tasks array.
 
-Write these functions:
+## Write these functions:
 
 - `addTask(tasks, title)` should return a new array with a new incomplete task added.
 - `completeTask(tasks, taskId)` should return a new array where only the matching task is completed.
 - `removeTask(tasks, taskId)` should return a new array without the matching task.
 - `countIncompleteTasks(tasks)` should return the number of incomplete tasks.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const tasks = [
@@ -30,7 +30,7 @@ console.log(tasks.length);
 console.log(countIncompleteTasks(tasks));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 ["Review variables", "Practice functions", "Build task utilities"];
@@ -38,3 +38,5 @@ Expected output:
 2;
 1;
 ```
+
+The original `tasks` array should still have two items after these helper functions run.

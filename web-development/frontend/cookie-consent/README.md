@@ -1,6 +1,6 @@
 # Cookie Consent
 
-> Project URL: [Javascript Cookie Consent](https://roadmap.sh/projects/cookie-consent)
+> Project URL: https://roadmap.sh/projects/cookie-consent
 
 This project is designed to introduce you to basic DOM manipulation and event handling in JavaScript.
 

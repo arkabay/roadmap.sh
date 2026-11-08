@@ -1,6 +1,6 @@
 # Age Calculator
 
-> Project URL: [Javascript Age Calculator](https://roadmap.sh/projects/age-calculator)
+> Project URL: https://roadmap.sh/projects/age-calculator
 
 The goal of this project is to help you learn how to use external packages using [npm](https://www.npmjs.com/). The user inputs their birthdate via a [JavaScript Datepicker](https://www.npmjs.com/package/js-datepicker), and the app calculates and displays their exact age, including years and months, using [Luxon](https://www.npmjs.com/package/luxon).
 
@@ -15,7 +15,5 @@ You are required to develop an age calculator with the following features:
 - Display the result on the same page after the user submits the form
 - Implement basic validation to ensure the birthdate is valid
 - Use simple styling to make the calculator visually appealing and responsive
-
----
 
 This project will help you understand how to manipulate dates and times in JavaScript using [Luxon](https://www.npmjs.com/package/luxon). You'll gain experience handling user input via a datepicker, performing date calculations, and designing a simple user interface.

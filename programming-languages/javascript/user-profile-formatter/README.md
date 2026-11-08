@@ -1,10 +1,10 @@
 # User Profile Formatter
 
-> Project URL: [Javascript User Profile Formatter](https://roadmap.sh/projects/js-user-profile-formatter)
+> Project URL: https://roadmap.sh/projects/js-user-profile-formatter
 
 Format a nested user object into values that are easier to show in an interface or return from an API. The final summary should collect the smaller pieces.
 
-Write these functions:
+## Write these functions:
 
 - `getDisplayName(user)` should return the first and last name as one string.
 - `getLocation(user)` should return "City, Country".
@@ -12,7 +12,7 @@ Write these functions:
 - `isAccountActive(user)` should return true when account.status is "active".
 - `createProfileSummary(user)` should return displayName, location, contact, active, and plan.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const user = {
@@ -37,7 +37,7 @@ console.log(isAccountActive(user));
 console.log(getContactSummary(user));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 { displayName: "Ava Stone", location: "London, UK", contact: { email: "ava@example.com", phone: null }, active: true, plan: "pro" }

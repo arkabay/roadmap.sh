@@ -1,17 +1,17 @@
 # Expense Summary
 
-> Project URL: [Javascript Expense Summary](https://roadmap.sh/projects/js-expense-summary)
+> Project URL: https://roadmap.sh/projects/js-expense-summary
 
 Given a list of expenses, calculate useful totals and identify the largest expense. The final summary should reuse the smaller helper functions.
 
-Write these functions:
+## Write these functions:
 
 - `calculateTotal(expenses)` should return the total amount spent.
 - `calculateCategoryTotal(expenses, category)` should return the total for one category.
 - `findLargestExpense(expenses)` should return the full expense object with the largest amount.
 - `createExpenseSummary(expenses)` should return total, foodTotal, transportTotal, and largestExpense.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const expenses = [
@@ -27,7 +27,7 @@ console.log(calculateCategoryTotal(expenses, "health"));
 console.log(findLargestExpense(expenses));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 { total: 97, foodTotal: 42, transportTotal: 15, largestExpense: { id: 4, category: "books", amount: 40 } }

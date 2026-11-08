@@ -1,10 +1,10 @@
 # Quiz Score Calculator
 
-> Project URL: [Javascript Quiz Score Calculator](https://roadmap.sh/projects/js-quiz-score-calculator)
+> Project URL: https://roadmap.sh/projects/js-quiz-score-calculator
 
 Score a quiz by matching each question with the answer the user gave. The final result should include the count, total, percentage, and a simple message.
 
-Write these functions:
+## Write these functions:
 
 - `isAnswerCorrect(question, userAnswer)` should return true when the user's answer matches the correct answer.
 - `countCorrectAnswers(questions, userAnswers)` should match each question with its user answer and return the number correct.
@@ -12,7 +12,7 @@ Write these functions:
 - `getResultMessage(percentage)` should return a short message based on the percentage.
 - `createQuizResult(questions, userAnswers)` should return correctCount, totalQuestions, percentage, and message.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const questions = [
@@ -37,7 +37,7 @@ const partialAnswers = [{ questionId: 1, answer: "B" }];
 console.log(createQuizResult(questions, partialAnswers));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 { correctCount: 3, totalQuestions: 4, percentage: 75, message: "You passed" }

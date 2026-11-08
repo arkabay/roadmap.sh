@@ -1,16 +1,16 @@
 # Greeting Builder
 
-> Project URL: [Javascript Greeting Builder](https://roadmap.sh/projects/js-greeting-builder)
+> Project URL: https://roadmap.sh/projects/js-greeting-builder
 
 Build a small greeting helper. The main function, createGreeting, should take a person's first name, last name, and time of day, then return one greeting string.
 
-Write these functions:
+## Write these functions:
 
 - `formatName(firstName, lastName)` should return the first and last name as one string.
 - `getGreeting(timeOfDay)` should return "Good morning", "Good afternoon", or "Good evening".
 - `createGreeting(firstName, lastName, timeOfDay)` should use the other two functions and return the final greeting.
 
-Sample checks:
+## Sample checks:
 
 ```js
 console.log(createGreeting("Ava", "Stone", "morning"));
@@ -18,7 +18,7 @@ console.log(createGreeting("Noah", "Kim", "evening"));
 console.log(createGreeting("Mina", "Patel", "afternoon"));
 ```
 
-Expected output:
+## Expected output:
 
 ```txt
 Good morning, Ava Stone

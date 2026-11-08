@@ -1,10 +1,10 @@
 # Product Search and Filter
 
-> Project URL: [Javascript Product Search and Filter](https://roadmap.sh/projects/js-product-search-and-filter)
+> Project URL: https://roadmap.sh/projects/js-product-search-and-filter
 
 You are building search helpers for a small product list. Some helpers should return multiple products, and one helper should return a single product.
 
-Write these functions:
+## Write these functions:
 
 - `filterByCategory(products, category)` should return products in the matching category.
 - `filterByMaxPrice(products, maxPrice)` should return products at or below the max price.
@@ -12,7 +12,7 @@ Write these functions:
 - `findProductById(products, productId)` should return one matching product or undefined.
 - `searchProducts(products, searchText)` should return products whose name includes the search text, ignoring casing.
 
-Sample checks:
+## Sample checks:
 
 ```js
 const products = [
@@ -38,7 +38,7 @@ console.log(getInStockProducts(products).map((product) => product.name));
 console.log(findProductById(products, 99));
 ```
 
-Expected output:
+## Expected output:
 
 ```js
 ["Notebook", "Pen Set"]

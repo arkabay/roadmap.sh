@@ -53,3 +53,8 @@ Each roadmap has its own README containing its project index and progress tracki
 
 - [roadmap.sh](https://roadmap.sh/) — Developer roadmaps and learning paths.
 - [roadmap.sh Projects](https://roadmap.sh/projects) — Hands-on project challenges.
+
+## Author
+
+- **Portfolio**: [Akbar Maulana (Arkabay)](https://arkabay.dev)
+- **GitHub**: [@arkabay](https://github.com/arkabay)

@@ -49,6 +49,31 @@ The focus goes beyond completing projects. Each challenge is an opportunity to s
 
 Each roadmap has its own README containing its project index and progress tracking. Individual project directories preserve the original requirements and instructions from roadmap.sh.
 
+## Project Submissions
+
+| #   | Project                                                                                    | Roadmaps             | Project URL                                              |
+| --- | ------------------------------------------------------------------------------------------ | -------------------- | -------------------------------------------------------- |
+| 01  | [Greeting Builder](./programming-languages/javascript/greeting-builder/)                   | JavaScript           | https://roadmap.sh/projects/js-greeting-builder          |
+| 02  | [Temperature Converter](./programming-languages/javascript/temperature-converter/)         | JavaScript           | https://roadmap.sh/projects/js-temperature-converter     |
+| 03  | [Number Checker](./programming-languages/javascript/number-checker/)                       | JavaScript           | https://roadmap.sh/projects/js-number-checker            |
+| 04  | [String Formatter](./programming-languages/javascript/string-formatter/)                   | JavaScript           | https://roadmap.sh/projects/js-string-formatter          |
+| 05  | [Price Calculator](./programming-languages/javascript/price-calculator/)                   | JavaScript           | https://roadmap.sh/projects/js-price-calculator          |
+| 06  | [Cart Total Calculator](./programming-languages/javascript/cart-total-calculator/)         | JavaScript           | https://roadmap.sh/projects/js-cart-total-calculator     |
+| 07  | [Grade Report Generator](./programming-languages/javascript/grade-report-generator/)       | JavaScript           | https://roadmap.sh/projects/js-grade-report-generator    |
+| 08  | [Task List Utilities](./programming-languages/javascript/task-list-utilities/)             | JavaScript           | https://roadmap.sh/projects/js-task-list-utilities       |
+| 09  | [Expense Summary](./programming-languages/javascript/expense-summary/)                     | JavaScript           | https://roadmap.sh/projects/js-expense-summary           |
+| 10  | [Product Search and Filter](./programming-languages/javascript/product-search-and-filter/) | JavaScript           | https://roadmap.sh/projects/js-product-search-and-filter |
+| 11  | [User Profile Formatter](./programming-languages/javascript/user-profile-formatter/)       | JavaScript           | https://roadmap.sh/projects/js-user-profile-formatter    |
+| 12  | [Quiz Score Calculator](./programming-languages/javascript/quiz-score-calculator/)         | JavaScript           | https://roadmap.sh/projects/js-quiz-score-calculator     |
+| 13  | [JSON Response Normalizer](./programming-languages/javascript/json-response-normalizer/)   | JavaScript           | https://roadmap.sh/projects/js-json-response-normalizer  |
+| 14  | [Password Rule Checker](./programming-languages/javascript/password-rule-checker/)         | JavaScript           | https://roadmap.sh/projects/js-password-rule-checker     |
+| 15  | [Order Status Helper](./programming-languages/javascript/order-status-helper/)             | JavaScript           | https://roadmap.sh/projects/js-order-status-helper       |
+| 16  | [Tabs](./web-development/frontend/tabs/)                                                   | JavaScript, Frontend | https://roadmap.sh/projects/simple-tabs                  |
+| 17  | [Cookie Consent](./web-development/frontend/cookie-consent/)                               | JavaScript, Frontend | https://roadmap.sh/projects/cookie-consent               |
+| 18  | [Restricted Textarea](./web-development/frontend/restricted-textarea/)                     | JavaScript, Frontend | https://roadmap.sh/projects/restricted-textarea          |
+| 19  | [Accordion](./web-development/frontend/accordion/)                                         | JavaScript, Frontend | https://roadmap.sh/projects/accordion                    |
+| 20  | [Age Calculator](./web-development/frontend/age-calculator/)                               | JavaScript, Frontend | https://roadmap.sh/projects/age-calculator               |
+
 ## References
 
 - [roadmap.sh](https://roadmap.sh/) — Developer roadmaps and learning paths.

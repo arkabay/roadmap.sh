@@ -14,9 +14,9 @@ No projects currently listed in the official roadmap.sh TypeScript Projects coll
 
 ### Intermediate
 
-| #   | Project                                                        | Description                                                        | Status      |
-| --- | -------------------------------------------------------------- | ------------------------------------------------------------------ | ----------- |
-| 01  | [STANS Nav System Deploy](./stans-nav-system-deploy/README.md) | Deploy and manage the STANS system using Docker, Nginx, and CI/CD. | Not Started |
+| #   | Project                                               | Description                                                        | Status      |
+| --- | ----------------------------------------------------- | ------------------------------------------------------------------ | ----------- |
+| 01  | [STANS Nav System Deploy](./stans-nav-system-deploy/) | Deploy and manage the STANS system using Docker, Nginx, and CI/CD. | Not Started |
 
 ### Advanced
 
